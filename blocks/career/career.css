@@ -1,0 +1,150 @@
+.career-container .career-wrapper {
+    background-color: #333;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career {
+    max-width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+}
+
+.career div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* height: 40em; */
+}
+
+.career div .career-img-col {
+    width: 50%;
+}
+
+.career div .career-img-col picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 26em;
+}
+
+.career div .career-content {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
+    /* height: 20em; */
+}
+
+.career-content .career-subcontent {
+    display: flex;
+    flex-direction: column;
+    border-left: 8px solid #8fbf3f;
+    /* margin-left: 50px; */
+    padding-left: 35px;
+    height: auto;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.career-content .career-subcontent h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.career-content .career-subcontent p {
+    color: white;
+}
+
+.career-content .career-subcontent .button-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.career-content .career-subcontent .button-container .primary {
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .career-container.section {
+        height: auto;
+        background-color: #333;
+        min-height: 100%;
+        padding: 0px 16px;
+    }
+
+    .career-container .career-wrapper {
+        background-color: #333;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career-container .career-wrapper {
+
+        /* height: 35em; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career-container .career-wrapper .career {
+        max-width: 100%;
+        /* display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        height: 100%;
+    }
+
+    .career-container .career-wrapper .career div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .career div .career-img-col {
+        width: 100%;
+    }
+
+    .career div .career-img-col picture img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .career-container .career-wrapper .career div .career-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 30px 0px;
+        height: auto;
+    }
+
+    .career-container .career-wrapper .career div .career-content .career-subcontent {
+        display: flex;
+        flex-direction: column;
+        border-left: 8px solid #8fbf3f;
+        /* margin-left: 50px; */
+        padding-left: 35px;
+        height: auto;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+}

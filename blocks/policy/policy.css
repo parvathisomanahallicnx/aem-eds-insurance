@@ -1,0 +1,182 @@
+.policy-container .policy-wrapper {
+    /* background-color: #333; */
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy {
+    max-width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+}
+
+.policy div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #154a86;
+    /* background: #154a86; */
+    /* height: 40em; */
+}
+
+.policy div .policy-img-col {
+    width: 50%;
+}
+
+.policy div .policy-img-col picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    height: 26em;
+}
+
+.policy div .policy-content {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
+    /* height: 20em; */
+}
+
+.policy-content .policy-subcontent {
+    display: flex;
+    flex-direction: column;
+    /* border-left: 8px solid #8fbf3f; */
+    /* margin-left: 50px; */
+    /* padding-left: 35px; */
+    height: auto;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.policy-content .policy-subcontent h2 {
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+.policy-content .policy-subcontent p {
+    color: white;
+    width: 95%;
+}
+
+.policy-content .policy-subcontent .policy-heading {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.policy-content .policy-subcontent .button-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.policy-content .policy-subcontent .button-container .primary {
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+.policy .button-container .secondary {
+    color: white;
+    border-color: white;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .policy-container.section {
+        height: auto;
+        /* background-color: #333; */
+        min-height: 100%;
+        padding: 18px 16px;
+    }
+
+    .policy-container .policy-wrapper {
+        /* background-color: #333; */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .policy-container .policy-wrapper {
+
+        /* height: 35em; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .policy-container .policy-wrapper .policy {
+        max-width: 100%;
+        /* display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        height: 100%;
+    }
+
+    .policy-container .policy-wrapper .policy div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background: none;
+    }
+
+    .policy div .policy-img-col {
+        width: 100%;
+    }
+
+    .policy div .policy-img-col picture img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .policy-container .policy-wrapper .policy div .policy-content {
+        width: 100%;
+        display: flex;
+        background: #154a86;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0px 0px;
+        height: auto;
+    }
+
+    .policy-container .policy-wrapper .policy div .policy-content .policy-subcontent {
+        display: flex;
+        flex-direction: column;
+        /* border-left: 8px solid #8fbf3f; */
+        /* margin-left: 50px; */
+        /* padding-left: 35px; */
+        padding: 30px;
+        height: auto;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    /* 
+    .policy-container .policy-wrapper .policy div .policy-content .policy-subcontent {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+    } */
+    .policy-container .policy-wrapper .policy div .policy-content .policy-subcontent .button-wrapper .button-container .primary .secondary {
+        width: 100%;
+    }
+
+}

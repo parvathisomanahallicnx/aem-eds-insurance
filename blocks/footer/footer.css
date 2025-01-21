@@ -1,0 +1,163 @@
+footer {
+
+  background-color: #f0f0ee;
+  font-size: var(--body-font-size-s);
+}
+
+footer .footer {
+  max-width: 1440px;
+  margin: auto;
+}
+
+footer .footer p {
+  margin: 0;
+}
+
+footer .footer-main .footer-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 2rem 3rem;
+
+}
+
+footer div div ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0%;
+  margin: 0%;
+  gap: 16px;
+}
+
+footer div div ul li {
+  list-style: none;
+  padding: 2% 0%;
+  margin: 0%;
+  font-size: 22px;
+}
+
+footer div div ul li::first-line {
+  color: #838380;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* margin-bottom: 20px; */
+  pointer-events: none;
+}
+
+footer div div ul li ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 15px 0px;
+  margin: 0%;
+
+
+}
+
+footer div div ul li ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+  color: #154a86;
+  font-size: 1pc;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+footer div div ul li ul li a:any-link {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+  color: #154a86;
+  font-size: 1pc;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+footer div div p {
+  /* background-color: #154a86; */
+}
+
+.footer-main .footer-title p a {
+  color: #154a86;
+  margin-bottom: 10px;
+}
+
+.footer-main .footer-title p picture img {
+  width: 58px;
+  height: auto;
+  margin-bottom: -15px;
+}
+
+.footer-main .footer-copyright {
+  background: #154a86;
+  padding: 0px 40px;
+}
+
+.footer-main .footer-copyright ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-main .footer-copyright ul li a {
+  font-size: 14px;
+  color: white;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  footer div div {
+    font-size: 30px;
+  }
+
+  footer div div ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer div div ul li {
+    padding: 0% 0%;
+
+  }
+
+  footer div div ul li::first-line {
+    font-size: 30px;
+    color: #838380;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* margin-bottom: 20px; */
+    pointer-events: none;
+
+  }
+
+  footer div ::first-line {}
+
+  footer div div ul li ul li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  .footer-main .footer-copyright ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+}
