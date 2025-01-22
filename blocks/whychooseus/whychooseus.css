@@ -1,0 +1,43 @@
+.service { padding: 260px 0 87px;}
+
+.single-service-item{
+    text-align: center;
+    padding:55px 30px 60px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 1px solid #dadfe9;
+    -webkit-transition: .3s linear; 
+    -moz-transition:.3s linear; 
+    -ms-transition:.3s linear; 
+    -o-transition:.3s linear;
+    transition: .3s linear;
+}
+
+.single-service-icon {
+    display: inline-block;
+    color: #50616c;
+}
+.single-service-item h2 a {
+    font-size:20px;
+    margin: 35px 0 20px;
+}
+.single-service-item h2 a span {text-transform:  lowercase;}
+.single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative;}
+.single-service-item p:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 3px;
+    background: #3030ea;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.single-service-icon [class^="flaticon-"]:before,.single-service-icon[class*=" flaticon-"]:before,.single-service-icon [class^="flaticon-"]:after,.single-service-icon [class*=" flaticon-"]:after {font-size:60px;}
+.single-service-item:hover .single-service-icon [class^="flaticon-"]:before,.single-service-item:hover .single-service-icon [class*=" flaticon-"]:before,.single-service-item:hover .single-service-icon [class^="flaticon-"]:after,.single-service-item:hover .single-service-icon [class*=" flaticon-"]:after {color:#fff;}
+
+
+.single-service-item:hover h2 a,.single-service-item:hover p{color: #fff;}
+.single-service-item:hover  p:before {background: #fff;}
+.single-service-item:hover{box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);background: #4e4ffa;border: 1px solid #4e4ffa;}
